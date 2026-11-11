@@ -1,0 +1,31 @@
+:root {
+    --raceday-primary: #0d6efd;
+    --raceday-accent: #fd7e14;
+    --raceday-dark: #212529;
+    --raceday-light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--raceday-light);
+}
+
+.navbar {
+    background-color: var(--raceday-dark) !important;
+    border-bottom: 4px solid var(--raceday-accent);
+}
+
+.navbar-brand {
+    font-weight: 800;
+    color: var(--raceday-accent) !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
